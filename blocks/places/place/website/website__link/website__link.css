@@ -1,0 +1,13 @@
+.website__link {
+    text-decoration: underline;
+    color: white;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 22px;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+
+.website__link:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,8 @@
+.lead__subtitle {
+    font-family: inherit;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 auto 64px;
+    font-weight: 400;
+}

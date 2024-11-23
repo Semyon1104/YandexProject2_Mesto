@@ -1,0 +1,10 @@
+@import url(../../../fonts/fonts.css);
+.page {
+  margin: 0;
+  background-color: #2A2C2F;
+  font-family: "Inter-Regular", "Arial", sans-serif;
+  color: white;
+}
+body {
+  background-color: #2A2C2F;
+}
