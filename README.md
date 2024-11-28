@@ -1,1 +1,1 @@
-# YandexProject2_Mesto
+# Проект Яндекс "Место"
