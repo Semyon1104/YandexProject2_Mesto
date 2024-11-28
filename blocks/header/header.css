@@ -1,8 +1,28 @@
 .header {
-  width: 1184px;
-  height: 52px;
-  margin: 28px auto 56px;
+  width: calc(100% - 96px);
+  margin: 28px auto 74px;
   display: flex;
   justify-content: space-between;
-  align-items:end;
+  align-items: end;
 }
+
+@media all and (max-width: 1024px) {
+  .header {
+    margin-bottom: 48px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+@media all and (max-width: 320px) {
+  .header {
+    width: calc(100% - 32px);
+    margin-top: 16px;
+  }
+}
+
+

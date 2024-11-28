@@ -4,3 +4,23 @@
     line-height: 76px;
     margin: 0;
 }
+
+@media all and (max-width: 768px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+  }
+
+  @media all and (max-width: 500px) {
+    .place__title {
+        padding-left: 10px;
+    }
+  }
+
+  @media all and (max-width: 320px) {
+    .place__title {
+        font-size: 23px;
+        line-height: 32px;
+    }
+  }

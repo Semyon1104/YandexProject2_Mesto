@@ -1,3 +1,21 @@
 .main-illustration {
-  margin-bottom: 92px;
+  margin-bottom: 74px;
+}
+
+@media all and (max-width: 1024px) {
+  .main-illustration {
+    margin-bottom: 92px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .main-illustration {
+    margin-bottom: 88px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .main-illustration {
+    margin-bottom: 64px;
+  }
 }

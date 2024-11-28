@@ -1,4 +1,9 @@
 .website {
     align-self: end;
-    
 }
+
+@media all and (max-width: 500px) {
+    .website {
+        padding-left: 10px;
+    }
+  }

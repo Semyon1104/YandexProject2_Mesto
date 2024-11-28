@@ -1,6 +1,14 @@
 .website__heading {
     font-family: inherit;
     font-size: 12px;
-    line-height: 1;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    font-weight: 400;
     margin: 0 0 12px;
 }
+
+@media all and (max-width: 768px) {
+    .website__heading {
+        line-height: 1;
+    }
+  }
